@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Demo Profile Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="demo-banner" aria-label="Demo warning">
+      DEMO — NOT A VALID IDENTITY DOCUMENT
+    </section>
+
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Back">‹</button>
+      <h1>Κάρτα Προφίλ</h1>
+      <button class="icon-btn" aria-label="Menu">⋮</button>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ΑΡΙΘΜΟΣ ΚΑΡΤΑΣ DEMO</p>
+        <p class="card-number">AM •••• 4128</p>
+        <p class="eyebrow">ΗΜ. ΕΚΔΟΣΗΣ</p>
+        <p class="issue-date">DEMO ONLY</p>
+      </div>
+      <div class="portrait-frame">
+        <img src="portrait.png" alt="Portrait used in fictional demo card" />
+      </div>
+    </section>
+
+    <section class="actions">
+      <button class="action dark" id="saveDemo">
+        <span class="wallet-icon">▣</span>
+        <span><small>Αποθήκευση</small><strong>Demo Card</strong></span>
+      </button>
+
+      <button class="action">
+        <span class="doc-icon">▱</span>
+        <strong>Προβολή Demo</strong>
+      </button>
+
+      <div class="action qr-card" aria-label="Decorative non-scannable QR">
+        <div id="fakeQr" class="fake-qr" role="img" aria-label="Decorative non-scannable QR pattern"></div>
+        <span><small>Διακοσμητικό</small><strong>QR — ΜΗ ΣΑΡΩΣΙΜΟ</strong></span>
+      </div>
+
+      <button class="action" id="quickScan">
+        <span class="scan-icon">⌗</span>
+        <strong>Quick Demo</strong>
+      </button>
+    </section>
+
+    <section class="details">
+      <div class="field">
+        <span>ΕΠΩΝΥΜΟ</span>
+        <strong>ΖΑΦΕΙΡΟΠΟΥΛΟΣ</strong>
+      </div>
+      <div class="field">
+        <span>SURNAME</span>
+        <strong>ZAFEIROPOULOS</strong>
+      </div>
+      <div class="field">
+        <span>ΟΝΟΜΑ</span>
+        <strong>ΔΗΜΗΤΡΙΟΣ</strong>
+      </div>
+      <div class="field">
+        <span>GIVEN NAME</span>
+        <strong>DIMITRIOS</strong>
+      </div>
+      <div class="field">
+        <span>ΟΝΟΜΑ ΠΑΤΕΡΑ</span>
+        <strong>ΠΑΝΑΓΙΩΤΗΣ</strong>
+      </div>
+      <div class="field">
+        <span>FATHER'S NAME</span>
+        <strong>PANAGIOTIS</strong>
+      </div>
+      <div class="field">
+        <span>ΟΝΟΜΑ ΜΗΤΕΡΑΣ</span>
+        <strong>ΙΩΑΝΝΑ</strong>
+      </div>
+      <div class="field">
+        <span>MOTHER'S NAME</span>
+        <strong>IOANNA</strong>
+      </div>
+      <div class="field">
+        <span>ΗΜ. ΓΕΝΝΗΣΗΣ</span>
+        <strong>21 / 06 / 20••</strong>
+      </div>
+      <div class="field">
+        <span>ΤΟΠΟΣ ΓΕΝΝΗΣΗΣ</span>
+        <strong>ΑΘΗΝΑ</strong>
+      </div>
+      <div class="field">
+        <span>ΓΡΑΦΕΙΟ DEMO</span>
+        <strong>Τ.Α. ΧΑΛΑΝΔΡΙΟΥ — DEMO</strong>
+      </div>
+    </section>
+
+    <footer>
+      Fictional UI mockup. No verification, legal validity, wallet pass, or government affiliation.
+    </footer>
+  </main>
+
+  <div class="watermark" aria-hidden="true">DEMO</div>
+  <script src="script.js"></script>
+</body>
+</html>
