@@ -12,3 +12,4 @@ This is a fictional, non-valid profile-card UI mockup.
 6. GitHub will provide a public URL after deployment.
 
 The page contains a permanent demo warning, a non-scannable decorative QR pattern, and no Apple Wallet pass or government verification.
+
