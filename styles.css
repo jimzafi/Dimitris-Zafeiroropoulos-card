@@ -236,6 +236,25 @@ footer {
   .actions { gap: 10px; padding-inline: 12px; }
   .action { min-height: 88px; padding: 12px; font-size: 15px; }
 }
+.action-icon {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.action .qr-icon {
+  width: 54px;
+  height: 54px;
+}
+
+.action {
+  justify-content: flex-start;
+}
+
+.action strong {
+  line-height: 1.15;
+}
 .demo-banner {
   background: #0b2458 !important;
   color: white !important;
