@@ -23,14 +23,17 @@ body {
 }
 
 .page-shell {
-  width: min(100%, 460px);
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 50% 38%, rgba(255,255,255,.05), transparent 23%),
-    linear-gradient(180deg, #0b2e70 0%, #09275f 58%, #071d49 100%);
-  box-shadow: 0 0 55px rgba(0,0,0,.35);
+    background:
+        linear-gradient(
+            rgba(11, 36, 88, 0.82),
+            rgba(11, 36, 88, 0.82)
+        ),
+        url("background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 }
 
 .demo-banner {
