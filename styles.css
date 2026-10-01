@@ -457,3 +457,19 @@ footer {
 .nav-icon {
     font-size: 22px;
 }
+.topbar .icon-btn {
+    position: relative;
+    z-index: 100;
+}
+
+.topbar a.icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    pointer-events: auto;
+}
