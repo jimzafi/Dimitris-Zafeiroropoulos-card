@@ -477,4 +477,29 @@ footer {
     height: auto;
     display: block;
     margin: 0 auto;
+}.wallet-brand {
+    position: relative;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.wallet-logo {
+    width: 410px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+    /* blend the edges into the background */
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 55%,
+        transparent 100%
+    );
+
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 55%,
+        transparent 100%
+    );
 }
