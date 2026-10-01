@@ -472,4 +472,9 @@ footer {
     color: white;
     cursor: pointer;
     pointer-events: auto;
+}.wallet-logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
